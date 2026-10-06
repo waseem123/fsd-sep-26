@@ -8,29 +8,111 @@
 </head>
 
 <body>
-    <p>
-        <label for="">Fullname</label>
-        <input type="text">
-    </p>
+    <form action="user-registration">
+        <p>
+            <label for="">Fullname</label>
+            <input type="text" name="Fullname">
+        </p>
 
-    <p>
-        <label for="">Email</label>
-        <input type="email">
-    </p>
+        <p>
+            <label for="">Email</label>
+            <input type="email" name="email">
+        </p>
 
-    <p>
-        <label for="">Mobile Number</label>
-        <input type="tel">
-    </p>
-    <p>
-        <label for="">Age</label>
-        <input type="number">
-    </p>
+        <p>
+            <label for="">Mobile Number</label>
+            <input type="tel" name="contact">
+        </p>
+        <p>
+            <label for="">Age</label>
+            <input type="number" name="age">
+        </p>
 
-    <p>
-        <label for="">Password</label>
-        <input type="password">
-    </p>
+        <p>
+            <label for="">Password</label>
+            <input type="password" name="password">
+        </p>
+        <hr>
+
+        <p>
+            <label for="">Gender</label>
+        <p>
+            <input type="radio" id="rb_male" name="gender">
+            <label for="rb_male">Male</label>
+            <input type="radio" id="rb_female" name="gender">
+            <label for="rb_female">Female</label>
+        </p>
+        </p>
+        <p>
+            <label for="">Qualification</label>
+        <p>
+            <input type="checkbox" id="q_ssc">
+            <label for="q_ssc">10th</label>
+            <input type="checkbox" id="q_hsc">
+            <label for="q_hsc">12th</label>
+            <input type="checkbox" id="q_diploma">
+            <label for="q_diploma">Diploma</label>
+
+            <input type="checkbox" id="q_ug">
+            <label for="q_ug">Undergraduate(BE/BTech, BCA, BSC etc)</label>
+
+            <input type="checkbox" id="q_pg">
+            <label for="q_pg">Post Graduate(ME/MTech, MCA, MSC etc)</label>
+        </p>
+        </p>
+        <hr>
+        <p>
+            <label for="">City</label>
+            <select name="city" id="">
+                <option value="">Select City</option>
+                <option value="SUR">Solapur</option>
+                <option value="PUN">Pune</option>
+                <option value="MUM" selected>Mumbai</option>
+                <option value="DLH">Delhi</option>
+                <option value="KOK">Kolkata</option>
+                <option value="CHN">Chennai</option>
+            </select>
+        </p>
+        <p>
+            <label for="">City</label>
+            <select name="city" id="" multiple>
+                <option value="">Select City</option>
+                <option value="SUR">Solapur</option>
+                <option value="PUN">Pune</option>
+                <option value="MUM" selected>Mumbai</option>
+                <option value="DLH">Delhi</option>
+                <option value="KOK">Kolkata</option>
+                <option value="CHN">Chennai</option>
+            </select>
+        </p>
+        <hr>
+        <p>
+            <label for="">Date of Birth</label>
+            <input type="date">
+
+            <label for="">Time</label>
+            <input type="time">
+
+            <label for="">DateTime</label>
+            <input type="datetime-local">
+        </p>
+        <hr>
+        <p>
+            <label for="">Upload your photo</label>
+            <input type="file" accept=".png,.pdf">
+        </p>
+        <hr>
+        <p>
+            <label for="">Price Range</label>
+            <input type="range" name="pricerange">
+        </p>
+        <p>
+            <label for="">Address</label>
+            <textarea name="" rows="10" cols="50" id=""></textarea>
+        </p>
+
+        <input type="submit">
+    </form>
 </body>
 
 </html>
