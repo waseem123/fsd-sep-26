@@ -11,7 +11,7 @@
     <form action="user-registration">
         <p>
             <label for="">Fullname</label>
-            <input type="text" name="Fullname">
+            <input type="text" name="Fullname" >
         </p>
 
         <p>
@@ -25,7 +25,7 @@
         </p>
         <p>
             <label for="">Age</label>
-            <input type="number" name="age">
+            <input type="number" name="age" min="1" max="100">
         </p>
 
         <p>
@@ -53,7 +53,7 @@
             <input type="checkbox" id="q_diploma">
             <label for="q_diploma">Diploma</label>
 
-            <input type="checkbox" id="q_ug">
+            <input type="checkbox" id="q_ug" checked>
             <label for="q_ug">Undergraduate(BE/BTech, BCA, BSC etc)</label>
 
             <input type="checkbox" id="q_pg">
@@ -65,9 +65,9 @@
             <label for="">City</label>
             <select name="city" id="">
                 <option value="">Select City</option>
-                <option value="SUR">Solapur</option>
+                <option value="SUR" selected>Solapur</option>
                 <option value="PUN">Pune</option>
-                <option value="MUM" selected>Mumbai</option>
+                <option value="MUM">Mumbai</option>
                 <option value="DLH">Delhi</option>
                 <option value="KOK">Kolkata</option>
                 <option value="CHN">Chennai</option>
