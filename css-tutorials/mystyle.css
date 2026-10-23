@@ -1,9 +1,11 @@
 h1{
-    color: orange;
+    color: purple;
     font-size: 48px;
+    background-color: yellow;
 }
 
 p{
-    color: green;
+    color: orangered;
     font-size: 24px;
 }
+

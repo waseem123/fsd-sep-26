@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,th,td{
+            border: 1px solid gray;
+            border-collapse: collapse;
+            padding: 8px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>Sr. No</th>
+                <th>CSS</th>
+                <th>Written in</th>
+                <th>Scope</th>
+                <th>Syntax</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Inline</td>
+                <td>Inside Element body using <code>style</code> attribute</td>
+                <td>Only for applied element</td>
+                <td><code>&lt;element style="property:value; property:value; "&gt;</code></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Internal</td>
+                <td>Inside <code>&lt;head&gt;</code> section of the page under <code>&lt;style&gt;</code> tag</td>
+                <td>Covers the selected elements of the page</td>
+                <td>
+                    <code>&lt;style&gt;element{property:value}&lt;/style&gt;</code>
+
+                </td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>External</td>
+                <td>Inside a separate file with <b><code>.css</code></b> extension</td>
+                <td>Applies all of the pages wherever the file is linked using <code>&lt;link&gt;</code> tag</td>
+                <td>
+                    <code>element{property:value}</code>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
