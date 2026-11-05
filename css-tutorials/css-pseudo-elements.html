@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #p1::first-letter {
+            font-size: 48px;
+        }
+
+        #p1::first-line {
+            color: red;
+        }
+
+        p::before {
+            content: "This is beginning...";
+        }
+
+        p::after {
+            content: "This is end...";
+        }
+
+        ::marker {
+            color: magenta;
+            font-size: 24px;
+        }
+
+        li{
+            color: blue;
+        }
+
+        ::selection{
+            background-color: rebeccapurple;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <p id="p1">
+        I asked my students to stand up and speak. Then I asked them a harder question: “What will you do when someone
+        criticises you in public?”
+        Most of them went quiet.
+    </p>
+    <p id="p2">
+        Speaking on stage is hard. Handling criticism on that stage is harder. And in tech, you will face both: in code
+        reviews, in interviews, in client meetings, in comments on your own posts.
+    </p>
+    <p>
+        So at InfoStack, I don’t only teach Python and Data Analytics. I also train students to face an audience. Here’s
+        what I told them about reacting to criticism in public:
+    </p>
+
+    <ol>
+        <li>Solapur</li>
+        <li>Mumbai</li>
+        <li>Pune</li>
+        <li>Chennai</li>
+    </ol>
+
+    <ul>
+        <li>Solapur</li>
+        <li>Mumbai</li>
+        <li>Pune</li>
+        <li>Chennai</li>
+    </ul>
+    <hr>
+</body>
+
+</html>
